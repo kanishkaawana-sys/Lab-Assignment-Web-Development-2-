@@ -1,0 +1,71 @@
+.{
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right, lightblue, lightpink);
+  padding: 20px;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: rgb(243, 202, 243);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300 px;
+}
+
+.card h2{
+  margin-bottom: 10px;
+}
+
+input,select,textarea{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button{
+  background: rgb(190, 104, 228);
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button.hover{
+  background: violet;
+}
+
+.event-card {
+  background: #eef2ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  font-size: 12px;
+  padding: 3px 6px;
+}
+
+.empty-text {
+  color: gray;
+  font-style: italic;
+}
